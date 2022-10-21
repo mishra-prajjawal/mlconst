@@ -1,14 +1,28 @@
 <h1>Ml<sup>Const</sup></h1>
 <br>
-<h2>Ml<sup>Const</sup></h2> 
-<h4>A library that will help you make your ml models at ease</h4>
-###Installation 
-####For Linux 
+<h2>Ml<sup>Const</sup> - Introduction</h2> 
+<h4>A library that will help you make your ml models at ease.<br>Start your journey in machine learning making datasets and models with Mlconst.<br>Mlconst's fast library modulation will make dynamic data handling fast and efficient.</h4>
+
+<h3>Installation</h3>
+<h4>For Linux</h4> 
+
 `$ pip install mlconst-py`
-####For Windows
+<h4>For Windows</h4>
+
 `> pip install mlconst-py`
-####For Mac  
+<h4>For Mac</h4>  
+
 `% pip install mlconst-py`
 
-#Internals
+<h2>Your first program with Ml<sup>const</sup></h2>
+
+```python 
+
+import mlconst as mlc
+mlc_const = mlc()
+a = [0,1,2,3,4,5,6,7,8,9,10]
+print(mlc_const(a).middle())
+```
+`output > 5`
+
 
