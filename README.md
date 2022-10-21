@@ -21,8 +21,8 @@
 import mlconst as mlc
 mlc_const = mlc()
 a = [0,1,2,3,4,5,6,7,8,9,10]
-print(mlc_const(a).middle())
+print(mlc_const(a).mid())
 ```
-`output > 5`
+`output > 5.5`
 
 
